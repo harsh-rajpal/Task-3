@@ -10,7 +10,7 @@ document.getElementById("input").value="";
 document.getElementById("preview").textContent=s;
 for(var i=0;i<s.length;i++)
 {
-    if(s.charCodeAt(i)===65 || s.charCodeAt(i)==97 || s.charCodeAt(i)===69 || s.charCodeAt(i)===73 || s.charCodeAt(i)===85 || s.charCodeAt(i)===101 || s.charCodeAt(i)===105 || s.charCodeAt(i)===111 || s.charCodeAt(i)===117)
+    if(s.charCodeAt(i)===65 || s.charCodeAt(i)==97 ||s.charCodeAt(i)==79 || s.charCodeAt(i)===69 || s.charCodeAt(i)===73 || s.charCodeAt(i)===85 || s.charCodeAt(i)===101 || s.charCodeAt(i)===105 || s.charCodeAt(i)===111 || s.charCodeAt(i)===117)
     {
         vo++;
     }
