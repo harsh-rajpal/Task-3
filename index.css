@@ -60,7 +60,7 @@ body{
     outline:none;
     border:1px ;
     background-color: #e84545;
-    box-shadow: 2px -0px 10px white;
+    box-shadow: 2px -0px 10px black;
     
 }
 
@@ -84,12 +84,12 @@ body{
 .parent:nth-child(even){
     background-color: #e84545;
     color:black;
-    box-shadow: 2px -0px 10px white;
+    box-shadow: 2px -0px 10px black;
 }
 .parent:nth-child(odd){
     background-color: white;
     color:black;
-    box-shadow:2px -0px 10px orangered;
+    box-shadow:2px -0px 10px black;
 }
 
 #preview{
