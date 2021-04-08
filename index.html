@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    
+    
+    <div class="main">
+        <div class="heading">
+            String Analyser
+        </div>
+        <br><br>
+        <div class="description">
+            This analyser will help you to know the <strong>vowel, consonent, special characters, spaces and numbers</strong> in given string.
+        </div>
+        <div class="input1">
+            <form>
+                <div class="ihead">Enter your text here :</div>
+                <input type="text" placeholder="Type the data in which you want to calculate." id="input"><br>
+                <button id = 'button' onclick="checker()">Analyse</button>
+            </form>
+        </div>
+        <div class="output">
+            <span class="input">Given input: </span>
+            <span id="preview"></span>
+            <div class="info">
+                <div class="parent">Vowels : 
+                    <span id="vowels"></span></div>
+                <div class="parent">Consonants : 
+                    <span id='consonants'></span></div>
+                <div class="parent">Digits :
+                     <span id='number'></span>
+                    </div>
+                <div class="parent">Spaces : 
+                    <span id='spaces'></span>
+                </div>
+                <div class="parent">Special characters : 
+                    <span id='schars'></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src='index.js'></script>
+    <BR>
+        <div class="flash">    <marquee direction="right">
+            Task-3 IEEE-CS               
+        </marquee></div>
+
+</body>
+
+</html>
+
